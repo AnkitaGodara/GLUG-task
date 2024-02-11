@@ -33,11 +33,11 @@ body {
   
   button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #077dfc;
     color: #fff;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
+    
     font-size: 16px;
   }
   
@@ -45,8 +45,28 @@ body {
     background-color: #0056b3;
   }
   #footer{
-    font-style: italic;
-    margin-top: 700px;
+  color: rgb(38, 38, 43);
+  text-align: center;
   position: fixed;
-  left: 670px;
+  bottom: 0; 
+  width: 100%; 
+  padding: 10px 0; 
   }
+  .error-message {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ff7e5f; 
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 9999;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border: 2px solid #fff; 
+  }
+  .error-message {
+    background-image: linear-gradient(to bottom right, #ff7e5f, #ff3f54); 
+  }
+  
